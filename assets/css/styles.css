@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+#secao-principal {
+  background-color: #303030;
+  color: #ffffff;
+  padding: 205px 62px 149px 62px;
+}
+
+#secao-principal h1 {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -2.5%;
+  margin-bottom: 20px;
+}
+
+#secao-principal p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+#secao-informacional {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 96px 171px 66px 171px;
+}
+
+.titulo-informacional {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 12px;
+}
+
+.descricao-informacional {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 12px;
+}
+
+#secao-historia {
+  padding: 82px 62px;
+  display: grid;
+  column-gap: 64px;
+  grid-auto-flow: column;
+  columns: auto;
+  align-items: center;
+}
+
+.titulo-historia {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+
+.descricao-historia {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+img {
+  width: 510px;
+  height: 605px;
+}
+
+#formulario {
+  background-color: #303030;
+  color: #ffffff;
+  padding: 87px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo-formulario {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 508px;
+  gap: 62px;
+  margin-top: 48px;
+}
+
+input {
+  width: 100%;
+  padding: 20px 30px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  font-size: 24px;
+}
+
+input::placeholder {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.botao-formulario {
+  width: 286;
+  padding: 24px 48px;
+  border-radius: 10px;
+  background-color: #c07212;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.botao-formulario:hover {
+  background-color: #e69d1a;
+  transform: translateY(-5px);
+}
