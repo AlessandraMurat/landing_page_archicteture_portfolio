@@ -28,6 +28,7 @@
 }
 
 #secao-informacional {
+  background-color: #f9f9f9;
   width: 100%;
   display: flex;
   justify-content: space-between;
