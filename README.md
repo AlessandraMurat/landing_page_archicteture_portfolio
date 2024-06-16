@@ -1,4 +1,4 @@
 # Desafio 01: Portfólio Arquitetura - Resolução
 
-- Link do site dispolibilizado: 
+- Link do site dispolibilizado: https://landing-page-architecture-portfolio.netlify.app/
 - Link da planilha de registro de informação: https://docs.google.com/spreadsheets/d/1xsRN8c3qg3kxEpd_IH8wVYSj0lsFJwUyL98BXMJhwok/edit?usp=sharing
